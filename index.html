@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nishchith Gowda D - Software Developer" />
+  <title>Nishchith Gowda D | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="logo">N<span>G</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Nishchith Gowda D</h1>
+      <h2 class="role">I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        Engineering student and software developer from Kanakapura, Karnataka,
+        passionate about building clean and useful software.
+      </p>
+      <a href="#about" class="btn">Know More About Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title reveal">About Me</h2>
+    <div class="about-grid">
+      <div class="card reveal">
+        <h3>Personal Details</h3>
+        <ul class="details">
+          <li><span>Name</span><strong>Nishchith Gowda D</strong></li>
+          <li><span>Date of Birth</span><strong>14 October 2007</strong></li>
+          <li><span>Age</span><strong id="age">--</strong></li>
+          <li><span>From</span><strong>Kanakapura</strong></li>
+          <li><span>Profession</span><strong>Software Developer</strong></li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3>Biography</h3>
+        <p>
+          I am Nishchith Gowda D, born on 14th October 2007 and raised in Kanakapura.
+          I am a software developer who enjoys turning ideas into working products.
+          I am currently pursuing engineering at Alva's Institute of Engineering,
+          and outside of coding I love playing football.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section alt">
+    <h2 class="section-title reveal">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <span class="dot"></span>
+        <div class="timeline-card">
+          <h3>Green Bell High School</h3>
+          <p class="meta">Starting to 5th Standard</p>
+          <p>Where my school journey began and my foundation was built.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="dot"></span>
+        <div class="timeline-card">
+          <h3>Jawahar Navodaya Vidyalaya</h3>
+          <p class="meta">6th to 12th Standard</p>
+          <p>Completed my schooling here, from middle school through to 12th.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="dot"></span>
+        <div class="timeline-card">
+          <h3>Alva's Institute of Engineering</h3>
+          <p class="meta">Engineering · Currently Studying</p>
+          <p>Pursuing my engineering degree while growing as a software developer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies" class="section">
+    <h2 class="section-title reveal">Hobbies & Interests</h2>
+    <div class="hobby-grid">
+      <div class="card hobby reveal">
+        <div class="icon">⚽</div>
+        <h3>Football</h3>
+        <p>Playing football keeps me active, focused and team-minded.</p>
+      </div>
+      <div class="card hobby reveal">
+        <div class="icon">💻</div>
+        <h3>Software Development</h3>
+        <p>I enjoy writing code and building things that people can use.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nishchith Gowda D. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
